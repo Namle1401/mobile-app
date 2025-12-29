@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/manhinhbatdau"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minh Vuong |"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvMinhVuong"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/img_ceo"></TextView>
+
+    <TextView
+        android:id="@+id/tvHuuNam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/img_ceo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/tvMinhVuong"
+        android:text="Huu Nam |"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duc Thien"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/tvDucThien"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tvHuuNam"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/img_ceo"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngoc Lam"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/tvNgocLam"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tvDucThien"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/img_ceo"></TextView>
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/img_ceo"
+    android:src="@drawable/ceo1"></ImageView>
+</RelativeLayout>

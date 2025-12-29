@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "238738118673",
+    "firebase_url": "https://appcafe-8f9b3-default-rtdb.firebaseio.com",
+    "project_id": "appcafe-8f9b3",
+    "storage_bucket": "appcafe-8f9b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238738118673:android:4f6ebad8f736575cc479b0",
+        "android_client_info": {
+          "package_name": "com.example.appduan1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-FCEmQr2G32InP90hI6zABIFZ04aeJ8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
